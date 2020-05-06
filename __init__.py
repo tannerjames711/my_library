@@ -1,1 +1,1 @@
-from my_library.py import *
+from my_library import *
