@@ -23,7 +23,7 @@ clone_url = f'https://github.com/{my_github_name}/my_library.git'
 #this adds the library to colab so you can now import it
 !git clone $clone_url
 
-import my_library as my
+import my_library.my_library as my
 ```
 
 # Test the import
