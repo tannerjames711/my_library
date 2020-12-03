@@ -2,8 +2,7 @@ import pandas as pd
 import pip
 import math
 import spacy
-import en_core_web_md
-nlp = en_core_web_md.load() 
+
 
 def process_bio(bio):
   doc = nlp(bio)
